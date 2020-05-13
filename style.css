@@ -106,8 +106,7 @@ a:hover {
 #introduction h1 {
   color: #f6f8ff;
 }
-
-
-
-
+#introduction {
+  background-color: #00BCD4;
+}
 
