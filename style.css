@@ -1,3 +1,5 @@
+
+@import url('components/flipcard.css');
 /* Colors and fonts */
 body {
   background: #F7F9FC;
@@ -31,10 +33,17 @@ a:hover {
   color: black;
 }
 
-
+* {
+  box-sizing: border-box;
+}
 /* Custom design with class (99% of your design) */
+.flexbox {
+display: flex;
+justify-content: space-between;
+}
+
 .container {
-  width: 700px;
+  width: 1000px;
   margin: 40px auto;
 }
 
